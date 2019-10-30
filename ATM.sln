@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM", "ATM_App\ATM.csproj", "{272C31E6-9CA0-49F3-B0B7-04F206D3ADC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransponderReceiver", "TransponderReceiver", "{41FD584B-77F0-4681-A0C4-D0EFCFA25B2F}"
+	ProjectSection(SolutionItems) = preProject
+		TransponderReceiver.dll = TransponderReceiver.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM.Test.Unit", "ATM.Test.Unit\ATM.Test.Unit.csproj", "{0EFAF17B-0C9C-42B8-9F48-FB040349B5D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM.Test.Integration", "ATM.Test.Integration\ATM.Test.Integration.csproj", "{1CBB6712-5CC1-4276-9DC4-4DB08C0B427D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{272C31E6-9CA0-49F3-B0B7-04F206D3ADC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272C31E6-9CA0-49F3-B0B7-04F206D3ADC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272C31E6-9CA0-49F3-B0B7-04F206D3ADC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272C31E6-9CA0-49F3-B0B7-04F206D3ADC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFAF17B-0C9C-42B8-9F48-FB040349B5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFAF17B-0C9C-42B8-9F48-FB040349B5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFAF17B-0C9C-42B8-9F48-FB040349B5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFAF17B-0C9C-42B8-9F48-FB040349B5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CBB6712-5CC1-4276-9DC4-4DB08C0B427D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBB6712-5CC1-4276-9DC4-4DB08C0B427D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CBB6712-5CC1-4276-9DC4-4DB08C0B427D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CBB6712-5CC1-4276-9DC4-4DB08C0B427D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {211986DD-7409-4E9D-AEB1-440FBE247F65}
+	EndGlobalSection
+EndGlobal
